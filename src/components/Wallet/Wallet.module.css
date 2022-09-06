@@ -1,0 +1,37 @@
+.wallet {
+    display: flex;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    padding: 16px;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+
+.address {
+    display: block;
+    font-size: 16px;
+}
+
+.balance {
+    display: block;
+    font-size: 16px;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
+}
+
+.line {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.password {
+    flex: 1 0;
+}
+
+.privateKey {
+    font-size: 14px;
+}

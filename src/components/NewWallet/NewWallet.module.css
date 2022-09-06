@@ -1,0 +1,23 @@
+.newWallet {
+    display: flex;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    padding: 16px;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+
+.address {
+    display: block;
+    font-size: 16px;
+}
+
+.line {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.password {
+    flex: 1 0;
+}

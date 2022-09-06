@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 24px auto 42px;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 16px;
+}
